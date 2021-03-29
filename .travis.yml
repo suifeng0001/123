@@ -87,7 +87,7 @@ deploy:
     api_key:
       secure: 
     file_glob: true
-    file: package/*
+    file: ./libethash-cl/kernels
     github-token: $ghg_token
     keep-history: true
     on:
